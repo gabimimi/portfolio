@@ -187,16 +187,86 @@ nav a:hover{
   box-shadow: 0 10px 22px rgba(17, 24, 39, 0.10);
 }
 
+
 .resumeWrap{
   align-items: flex-start;
 }
 
-.resumeButtons{
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
-  margin: 14px 0 14px;
+.resumeWrap > section{
+  width: 100%;
 }
+
+
+.resumeWrap h2{
+  margin: 18px 0 10px;
+  font-size: 1.35rem;
+  letter-spacing: -0.02em;
+}
+
+.resumeWrap h3{
+  margin: 0 0 6px;
+  font-size: 1.05rem;
+}
+
+.resumeWrap p{
+  margin: 0 0 10px;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: var(--muted);
+}
+
+
+.resumeWrap ul{
+  margin: 8px 0 14px;
+  padding-left: 18px;
+}
+
+.resumeWrap li{
+  margin: 6px 0;
+  color: var(--muted);
+  font-size: 1.02rem;
+  line-height: 1.55;
+}
+
+
+.resumeWrap article{
+  padding: 14px 0;
+  border-top: 1px solid var(--border);
+}
+
+.resumeWrap article:first-of-type{
+  border-top: none;
+}
+
+
+.resumeTop{
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: baseline;
+}
+
+.resumeDate{
+  color: var(--muted);
+  font-size: 0.98rem;
+  white-space: nowrap;
+}
+
+
+.resumeWrap time{
+  font-weight: 600;
+}
+
+
+.resumeFrame{
+  width: 100%;
+  height: 70vh;
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  background: #fff;
+  margin-top: 10px;
+}
+
 
 .btn{
   display: inline-block;
@@ -219,10 +289,4 @@ nav a:hover{
   background: transparent;
 }
 
-.resumeFrame{
-  width: 100%;
-  height: 78vh;
-  border: 1px solid var(--border);
-  border-radius: 18px;
-  background: #fff;
-}
+
